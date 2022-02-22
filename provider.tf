@@ -1,14 +1,14 @@
+
+
 terraform {
-  backend "remote" {
-    hostname = "app.terraform.io"
+  cloud {
     organization = "top-one-per-cent"
 
     workspaces {
-      name = "terraform-enterprise"
+      name = "cli-driven"
     }
   }
 }
-
 
 provider "aws" {
   region = "eu-west-1"

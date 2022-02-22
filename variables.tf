@@ -1,3 +1,8 @@
+variable "region" {
+  description = "AWS region"
+  default     = "us-west-1"
+}
+
 variable "name_prefix" {
   type        = string
   default     = "terraform-lc-example-"
