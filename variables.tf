@@ -5,7 +5,7 @@ variable "region" {
 
 variable "name_prefix" {
   type        = string
-  default     = "terraform-lc-example-"
+  default     = "terraform-lc-example3"
   description = "Launch config prefix"
 }
 
@@ -35,7 +35,7 @@ variable "device_name" {
 
 variable "name" {
   type        = string
-  default     = "terraform-dev-asg"
+  default     = "terraform-asg-lt"
   description = "Name of ASG"
 }
 
